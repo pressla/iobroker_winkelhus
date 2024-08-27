@@ -1,6 +1,11 @@
 adapters:
-  - influxdb
-  - SQL
-  - javascript
-  - sonoff
-  - deyeidc
+  - name: influxdb
+    instances: 1
+  - name: sql
+    instances: 1
+  - name: javascript
+    instances: 1
+  - name: sonoff
+    instances: 1
+  - name: deyeidc
+    instances: 2
