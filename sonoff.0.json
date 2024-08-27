@@ -1,0 +1,16 @@
+{
+  "port": 1883,
+  "bind": "0.0.0.0",
+  "user": "mqtt",
+  "password": "18041968",
+  "timeout": 300,
+  "TELE_SENSOR": true,
+  "TELE_STATE": false,
+  "STAT_RESULT": false,
+  "OBJ_TREE": false,
+  "storeClientsTime": 1440,
+  "defaultQoS": 0,
+  "retransmitInterval": 2000,
+  "retransmitCount": 10,
+  "ignorePings": false
+}
