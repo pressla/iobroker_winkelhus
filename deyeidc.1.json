@@ -1,0 +1,188 @@
+{
+  "ipaddress": "192.168.178.48",
+  "port": 8899,
+  "logger": 2907940591,
+  "pollInterval": 60,
+  "registers": [
+    {
+      "registerStart": 500,
+      "registerEnd": 500
+    },
+    {
+      "registerStart": 514,
+      "registerEnd": 541
+    },
+    {
+      "registerStart": 586,
+      "registerEnd": 593
+    },
+    {
+      "registerStart": 607,
+      "registerEnd": 619
+    },
+    {
+      "registerStart": 636,
+      "registerEnd": 653
+    },
+    {
+      "registerStart": 664,
+      "registerEnd": 679
+    }
+  ],
+  "coils": [
+    {
+      "register": 672,
+      "rules": 1,
+      "key": "PV1_P",
+      "name": "PV1_P",
+      "unit": "W",
+      "factor": 0,
+      "nullable": false
+    },
+    {
+      "register": 673,
+      "rules": 1,
+      "key": "PV2_P",
+      "name": "PV2_P",
+      "unit": "W",
+      "factor": 0,
+      "nullable": false
+    },
+    {
+      "register": 619,
+      "rules": 2,
+      "key": "Grid_CT_Tot",
+      "name": "Grid_CT_Tot",
+      "unit": "W",
+      "factor": 0,
+      "nullable": false
+    },
+    {
+      "register": 529,
+      "rules": 2,
+      "key": "Day_PV_E",
+      "name": "Day_PV_E",
+      "unit": "kWh",
+      "factor": 1,
+      "nullable": false
+    },
+    {
+      "register": 526,
+      "rules": 1,
+      "key": "Day_LD_E",
+      "name": "Day_LD_E",
+      "unit": "kWh",
+      "factor": 1,
+      "nullable": false
+    },
+    {
+      "register": 520,
+      "rules": 1,
+      "key": "Day_GridBuy_E",
+      "name": "Day_GridBuy_E",
+      "unit": "kWh",
+      "factor": 1,
+      "nullable": false
+    },
+    {
+      "register": 521,
+      "rules": 1,
+      "key": "Day_GridSell_E",
+      "name": "Day_GridSell_E",
+      "unit": "kWh",
+      "factor": 1,
+      "nullable": false
+    },
+    {
+      "register": 514,
+      "rules": 1,
+      "key": "Day_BatCharge_E",
+      "name": "Day_BatCharge_E",
+      "unit": "W",
+      "factor": 1,
+      "nullable": false
+    },
+    {
+      "register": 515,
+      "rules": 1,
+      "key": "Day_BatDisCharge_E",
+      "name": "Day_BatDisCharge_E",
+      "unit": "W",
+      "factor": 1,
+      "nullable": false
+    },
+    {
+      "register": 588,
+      "rules": 1,
+      "key": "Bat_SOC",
+      "name": "Bat_SOC",
+      "unit": "%",
+      "factor": 0,
+      "nullable": false
+    },
+    {
+      "register": 590,
+      "rules": 2,
+      "key": "Bat_Out_P",
+      "name": "Bat_Out_P",
+      "unit": "W",
+      "factor": 0,
+      "nullable": false
+    },
+    {
+      "register": 636,
+      "rules": 1,
+      "key": "Inv_Out_P",
+      "name": "Inv_Out_P",
+      "unit": "W",
+      "factor": 0,
+      "nullable": false
+    },
+    {
+      "register": 653,
+      "rules": 2,
+      "key": "LD_P",
+      "name": "LD_P",
+      "unit": "W",
+      "factor": 0,
+      "nullable": false
+    },
+    {
+      "register": 676,
+      "rules": 1,
+      "key": "PV1_U",
+      "name": "PV1_U",
+      "unit": "V",
+      "factor": 1,
+      "nullable": false
+    },
+    {
+      "register": 678,
+      "rules": 1,
+      "key": "PV2_U",
+      "name": "PV2_U",
+      "unit": "V",
+      "factor": 1,
+      "nullable": false
+    },
+    {
+      "register": 679,
+      "rules": 1,
+      "key": "PV2_I",
+      "name": "PV2_I",
+      "unit": "A",
+      "factor": 1,
+      "nullable": false
+    },
+    {
+      "register": 677,
+      "rules": 1,
+      "key": "PV1_I",
+      "name": "PV1_I",
+      "unit": "A",
+      "factor": 1,
+      "nullable": false
+    }
+  ],
+  "computes": []
+}
